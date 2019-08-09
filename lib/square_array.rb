@@ -9,7 +9,7 @@ def square_array(array)
    square = current_number ** 2 
     
    numbers.push(square)
-    counter += 1
+  counter += 1
     
   end
   
