@@ -1,16 +1,15 @@
 def square_array(array)
   
-  counter = 0 
+  index = 0 
  
   numbers = []
   
-  while array[counter] do
-  current_number = array[counter]  
+  while array[index] do
+  current_number = array[index]  
    square = current_number ** 2 
     
    numbers.push(square)
-  counter += 1
-    
+   index += 1
   end
   
 numbers
